@@ -6,7 +6,7 @@ def main():
     """
         DataPreprocessing()
             - 질의, 자막, 그리고 비디오 이미지 데이터를 얻고, 모델의 입력으로 들어갈 수 있는 형태의 Tensor로 변환합니다.
-        ModelPrecessor()
+        ModelProcessor()
             - 입력을 처리하여 결과를 도출합니다.
     """
 
