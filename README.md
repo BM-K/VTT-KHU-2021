@@ -20,13 +20,13 @@
         processor.py
         qle_logic.py
         qle_memory.py
-        memory.pt
-        logic.pt
+        memory.pt ✔
+        logic.pt ✔
 
       data/
         preprocessing.py
-        MissO_vid2image.h5
-        MissO_vid2sub.h5
+        MissO_vid2image.h5 ✔
+        MissO_vid2sub.h5 ✔
   ```
   3. output은 다음과 같습니다.
   ```
