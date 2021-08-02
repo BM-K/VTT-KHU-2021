@@ -31,7 +31,9 @@
   3. output은 다음과 같습니다.
   ```
   python main.py
-  
-  How did Haeyoung1 feel such surreal emotions?:
+
+  questions = ["How did Haeyoung1 feel such surreal emotions?"]
+  vids = ["AnotherMissOh18_001_0000"]
+
     Memory Level 3 | Logic Level 3 
   ```
