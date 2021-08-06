@@ -23,8 +23,8 @@ class DataPreprocessing():
         self.init_token_idx = self.tokenizer.convert_tokens_to_ids(self.init_token)
         self.sep_token_idx = self.tokenizer.convert_tokens_to_ids(self.sep_token)
 
-        self.vid2sub_h5 = './data/MissO_vid2sub.h5'
-        self.vid2image_h5 = './data/MissO_vid2image.h5'
+        self.vid2sub_h5 = './data/MissO_vid2sub_v3.h5'
+        self.vid2image_h5 = './data/MissO_vid2image_v3.h5'
 
         self.max_len = 512
         self.device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
