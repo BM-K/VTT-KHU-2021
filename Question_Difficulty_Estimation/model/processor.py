@@ -7,8 +7,8 @@ class ModelProcessor():
     def __init__(self):
         super(ModelProcessor, self).__init__()
         self.device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
-        memory_ckpt = './model/memory.pt'
-        logic_ckpt = './model/logic.pt'
+        memory_ckpt = './model/memory_v3.pt'
+        logic_ckpt = './model/logic_v3.pt'
 
         self.memory_model = QuestionLevelDifficulty_M()
         self.logic_model = QuestionLevelDifficulty_L()
